@@ -1,8 +1,26 @@
-# premier-league-goal-prediction
-Forecasting Premier League Goals Using Poisson Regression and Machine Learning
+# Forecasting Premier League Goals Using Statistical and Machine Learning Models
 
-Question: Can we use a Poisson regression model to predict the number of goals scored by Premier League teams based on their attacking/defending strength and home advantage? 
+## Overview
+This project analyses Premier League match data to model and predict the number of goals scored by teams. The aim is to apply econometric and predictive modelling techniques to understand goal-scoring patterns and evaluate forecasting performance.
 
-Data Source: Historical Premier League match data (multiple seasons) including teams and scores.
+## Research Question
+How many goals will a Premier League team score in a given match, and how well can statistical models predict these outcomes?
 
-Methods: > * Econometrics: Poisson Regression (GLM) to model goal counts. * Machine Learning: Logistic Regression to compare win/loss classification accuracy
+## Data
+- Premier League match data (multiple seasons)
+- Variables include teams, goals scored, home advantage and match context
+
+## Methods
+- Exploratory data analysis
+- Poisson regression for goal modelling
+- Optional comparison with a simple machine learning classifier
+
+## Tools
+- Python
+- pandas, numpy
+- statsmodels
+- scikit-learn
+- matplotlib
+
+## Status
+Work in progress.
